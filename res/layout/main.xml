@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/SistemaDeLeiloes"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="7dp" >
+
+    <TextView  
+	  android:id="@+id/item_nome"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:textAppearance="?android:attr/textAppearanceMedium"
+    android:padding="2dp"
+    android:textSize="18dp" />
+    <TextView  
+	  android:id="@+id/item_descricao"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:padding="2dp"
+    android:textSize="13dp" />
+     <TextView
+     android:id="@+id/item_maiorLance"
+     android:layout_width="fill_parent" 
+     android:layout_height="wrap_content" 
+     android:padding="2dp"
+     android:textSize="10dp" />
+     <Button android:text="Cobrir Lance!"
+     android:id="@+id/BtnCobrirLance"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:onClick="myClickHandler">
+    </Button>
+    
+</LinearLayout>
